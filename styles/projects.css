@@ -1,0 +1,142 @@
+* {margin: 0; padding: 0;}
+
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 600px;
+	height: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url("img/png.png");
+}
+
+main {
+	border-right:2px solid rgb(0, 0, 204);
+	border-left:2px solid rgb(0, 0, 204);
+}
+
+header h1{
+	color: black;
+    text-align: center;
+	text-shadow: 1.5px 1.5px white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: radial-gradient(white, rgb(0, 0, 204));
+	border: 2px solid rgb(0, 0, 204);
+    padding-bottom: .15em;
+    font-size: 315%;
+}
+
+main h1{
+    color: black;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: radial-gradient(white, rgb(0, 146, 204));
+    padding-bottom: .15em;
+    font-size: 315%;
+	border: 1px solid rgb(0, 146, 204);
+}
+
+#leftimg {
+	width: 15.5%;
+	float: left;
+	border-bottom: 2px solid rgb(0, 0, 204);
+}
+
+#rightimg{
+	width: 15%;
+	float: right;
+	border-bottom: 2px solid rgb(0, 0, 204);
+}
+
+/* the styles for the main content */
+main {
+    background-color: aliceblue;
+	clear: left;
+	padding-right: 75px;
+	padding-left: 75px;
+}
+
+h2{
+	text-align:center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 150%;
+	background-color: rgb(0, 0, 204);
+	color:white;
+	border-radius:0%, rgb(0, 0, 204);
+}
+ul{
+	list-style-type: square;
+}
+
+p {
+    color: rgba(12, 12, 180, 0.837);
+    font-style: italic;
+	font-size: 85%;
+	padding-bottom: 1em;
+	line-height: 2;
+}
+
+#family{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	border-left: 1.5px solid rgb(0, 146, 204);
+	border-right: 1.5px solid rgb(0, 146, 204);
+	border-bottom: 1.5px solid rgb(0, 146, 204);
+}
+
+main ul {
+	padding-right: 2em;
+	padding-left: 2em;
+}
+
+main li {
+	font-size: 110%;
+	padding-bottom: .25em;
+	padding-left: 1.25em;
+	padding-bottom: .35em;
+	background-color: rgb(153, 253, 250);
+	box-shadow: 0 0 1px 1px rgb(43, 221, 248);
+}
+
+.column {
+	float: left;
+	width: 35%;
+	padding: 2em;
+	border-top: gray;
+  }
+  
+  .column h1 {
+	font-weight: 500;
+	font-size: 125%;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color:black;
+	padding-bottom: .25em;
+	padding-top: .25;
+  }
+
+  /* Clear floats after image containers */
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  #cbu{
+    width: 100%;
+    padding-bottom: 0%;
+	
+  }
+
+/* the styles for the footer */
+footer p {
+	color: white;
+	text-align: center;
+	background-color:rgb(0, 0, 204);
+	padding-top: 1em;
+	padding-bottom: 1em;
+	box-shadow: 0 0 1px 1px rgb(43, 221, 248);
+}
