@@ -134,6 +134,14 @@ h3{
 	border-radius:0%, rgb(0, 0, 204);
 }
 
+h4{
+	text-align:center;
+	padding-top: 50px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 155%;
+	color:black;
+}
+
 p {
     color: rgba(12, 12, 180, 0.837);
 	font-size: 115%;
@@ -200,7 +208,7 @@ main li {
 	margin-right: auto;
     width: 60%;
     padding-bottom: 0%;
-	padding-top: 175px;
+	padding-top: 50px;
 	
   }
 
