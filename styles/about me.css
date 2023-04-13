@@ -39,9 +39,6 @@ nav {
 	background-image: radial-gradient(white, rgb(143, 232, 252));
 	box-shadow: 0 0 2px 2px;
   }
-  
-  
-  
 
 header{
 	border-right:2px solid rgb(0, 0, 204);
@@ -52,6 +49,18 @@ header{
 	margin-right: auto;
 	margin-left: auto;
   }
+  
+#leftimg {
+	height: 58px;
+	float: left;
+	border-bottom: 2px solid rgb(0, 0, 204);
+}
+
+#rightimg{
+	height:58px;
+	float: right;
+	border-bottom: 2px solid rgb(0, 0, 204);
+}
 main {
 	border-right:2px solid rgb(0, 0, 204);
 	border-left:2px solid rgb(0, 0, 204);
@@ -100,8 +109,6 @@ main h1{
 /* the styles for the main content */
 main {
     background-color: aliceblue;
-	
-	
 }
 
 h2{
@@ -115,7 +122,7 @@ h2{
 
 p {
     color: rgba(12, 12, 180, 0.837);
-	font-size: 115%;
+	font-size: 150%;
 	padding-bottom: 1em;
 	margin-right: 20px;
 	margin-left: 20px;
@@ -143,8 +150,9 @@ main li {
 	padding-bottom: .25em;
 	padding-left: 1.25em;
 	padding-bottom: .35em;
-	background-color: rgb(153, 253, 250);
-	box-shadow: 0 0 1px 1px blue;
+	background-color: rgb(206, 253, 252);
+	box-shadow: 0 0 1px 1px rgb(43, 221, 248);
+	font-weight: bold;
 }
 
 .column {
@@ -169,6 +177,7 @@ main li {
 	clear: both;
 	display: table;
   }
+
   #cbu{
 	display: block;
 	margin-left: auto;
