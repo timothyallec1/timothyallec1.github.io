@@ -35,7 +35,7 @@ nav {
   }
   
   a:hover {
-	background-color: rgb(183, 252, 250);
+	background-image: radial-gradient(white, rgb(143, 232, 252));
 	box-shadow: 0 0 2px 2px;
   }
   
