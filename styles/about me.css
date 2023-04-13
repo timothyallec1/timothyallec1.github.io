@@ -146,6 +146,7 @@ main ul {
 }
 
 main li {
+	text-indent: 200px;
 	font-size: 110%;
 	padding-bottom: .25em;
 	padding-left: 1.25em;
