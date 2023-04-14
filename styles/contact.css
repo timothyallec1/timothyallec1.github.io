@@ -87,20 +87,6 @@ main h1{
 	border: 1px solid rgb(0, 146, 204);
 }
 
-#leftimg {
-	width: 65px;
-	height: 58px;
-	float: left;
-	border-bottom: 2px solid rgb(0, 0, 204);
-}
-
-#rightimg{
-	width: 65px;
-	height:58px;
-	float: right;
-	border-bottom: 2px solid rgb(0, 0, 204);
-}
-
 /* the styles for the main content */
 main {
     background-color: aliceblue;
@@ -118,6 +104,8 @@ h2{
 main ul {
 	padding-right: 2em;
 	padding-left: 2em;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 main li {
@@ -126,8 +114,8 @@ main li {
 	padding-bottom: .25em;
 	padding-left: 1.25em;
 	padding-bottom: .35em;
-	background-color: rgb(153, 253, 250);
-	box-shadow: 0 0 1px 1px blue;
+	background-color: rgb(206, 253, 252);
+	box-shadow: 0 0 1px 1px rgb(43, 221, 248);
 }
 
 p {
@@ -162,14 +150,73 @@ p {
 	clear: both;
 	display: table;
   }
-  #cbu{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-    width: 60%;
-    padding-bottom: 0%;
-	
+  #logo{
+	padding-top: 10px;
+	padding-left: 10px;
+	width:70px;
+	height: 60px;
   }
+  text{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 150%;
+  }
+  .container {
+	max-width: 600px;
+	margin: 10px auto 0;
+	padding: 20px;
+	background-color: rgb(183, 249, 248);
+	box-shadow: 0 0 1px 1px rgb(43, 221, 248);
+
+}
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	font-weight: bold;
+	margin-bottom: 5px;
+	font-size: 20px;
+	
+}
+
+input[type="text"],
+input[type="email"],
+
+input::placeholder, textarea::placeholder {
+	font-size: 15px;
+	margin-bottom: 5px;
+
+  }
+
+
+textarea {
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: rgb(206, 253, 252);
+	box-shadow: 0 0 1px 1px rgb(43, 221, 248);
+}
+
+input[type="submit"] {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: rgb(206, 253, 252);
+	box-shadow: 0 0 1px 1px rgb(43, 221, 248);
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+input[type="submit"]:hover {
+	background-image: radial-gradient(white, rgb(143, 232, 252));
+	box-shadow: 0 0 2px 2px;
+	
+}
+
 
 /* the styles for the footer */
 footer p {

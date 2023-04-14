@@ -2,7 +2,7 @@
 <html lang ="en">
     <nav>
         <ul>
-            <li><a href="projects.html">CONTACT ME</a></li>
+            <li><a href="contact.html">CONTACT ME</a></li>
             <li><a href="projects.html">PROJECTS</a></li>
             <li><a href="CBU.html">CBU</a></li>
             <li><a href="aboutme.html">ABOUT</a></li>
@@ -10,22 +10,26 @@
         </ul>
       </nav>
     <header>
-        <link rel="stylesheet" href="styles/projects.css">
-        <h1> Contact Me <img src = "img/cs.jpg" id = "leftimg"> <img src = "img/java.jpg" id = "rightimg"></h1>
+        <link rel="stylesheet" href="styles/contact.css">
+        <h1> Contact Me </h1>
     </header>
     <body> 
         <main>
-            <h2>   </h2>
             <ul> 
-                <li> @timothy.allec  </li>
-                <p> 
-                </p>
-                
-                <li> LINKEDN</li>
-                <p> 
-                </p>
-                </p>
-            
+                <li> TEXT/CALL ME <img src = "img/phone.jpg" id = "logo"></li>
+                <text> 1-951-446-3803 </text>
+                <li> EMAIL ME <img src = "img/Gmail-Logo.jpg" id = "logo"></li>
+                <div class="container">
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
             </ul>
             <img src = "img/cbu.engineering.jpg" id ="cbu">
             <footer>

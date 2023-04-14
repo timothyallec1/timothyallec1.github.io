@@ -126,8 +126,8 @@ main li {
 	padding-bottom: .25em;
 	padding-left: 1.25em;
 	padding-bottom: .35em;
-	background-color: rgb(153, 253, 250);
-	box-shadow: 0 0 1px 1px blue;
+	background-color: rgb(206, 253, 252);
+	box-shadow: 0 0 1px 1px rgb(43, 221, 248);
 }
 
 p {
