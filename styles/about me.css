@@ -1,6 +1,8 @@
+/* for some reason, setting the backround images in the css file did not work. I tried multiple times.
+I was able to get the style to implement in the HTML file though. */
+
 * {margin: 0; padding: 0;}
 
-/* the styles for the elements */
 nav {
 	height: 50px;
 	padding: 10px;
